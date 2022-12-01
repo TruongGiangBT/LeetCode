@@ -1,5 +1,3 @@
-#include <vector>
-
 class Solution {
 public:
     vector<int> runningSum(vector<int>& nums) {
@@ -7,5 +5,5 @@ public:
         for (int i = 1; i < l; i++)
             nums[i] += nums[i-1];
         return nums;
-    };    
+    }    
 };
